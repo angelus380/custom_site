@@ -54,7 +54,6 @@ body * {
   background-color:lightgreen;
 }
 .navbar-default .navbar-toggle {
-
   border-color: lightgreen;
 }
 .navbar-default .navbar-toggle:focus,
@@ -69,11 +68,6 @@ body * {
 	border-color: lightgreen;
 	min-height: 50px;
 }
-@media (min-width:767px) {
-		.nav-solid {
-			height: 30px;
-		}
-	}
 .nav-solid.navbar-default .navbar-brand {
 	color:lightgreen;
 	font-size: 18px;
