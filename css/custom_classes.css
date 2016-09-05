@@ -9,6 +9,15 @@
 	height: -o-calc(100% - 18px); /* Opera */
 	height: calc(100% - 18px); /* Standard */
 }
+/* opacity */
+.opacity {
+	-khtml-opacity:.50; 
+ -moz-opacity:.50; 
+ -ms-filter:"alpha(opacity=50)";
+  filter:alpha(opacity=50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+  opacity:.50;
+}
 /* background */
 .background{
 
