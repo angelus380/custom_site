@@ -2,6 +2,31 @@
 /* basic classes */
 /**/
 
+/* placeholder */
+::-webkit-input-placeholder {
+  color: #eeeeee;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #eeeeee;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #eeeeee;
+}
+:-ms-input-placeholder {
+  color: #eeeeee;
+}
+
+/* selection */
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+::selection {
+  text-shadow: none;
+  background: #fed136;
+}
 /* calculation */
 .calculation {
 	height: -moz-calc(100% - 18px); /* Firefox */
@@ -53,7 +78,6 @@
     -webkit-transform: perspective(1px) scale(1);
 	transform: perspective(1px) scale(1);
 }
-
 /* animations */
 .transitions {
 	-webkit-transition: all 0.3s ease;
