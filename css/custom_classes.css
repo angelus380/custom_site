@@ -2,6 +2,13 @@
 /* basic classes */
 /**/
 
+
+/* inputs */
+input[type=text]
+input[type=password]
+input[type=submit] {
+	font-weight: bold;
+}
 /* placeholder */
 ::-webkit-input-placeholder {
   color: #eeeeee;
@@ -34,6 +41,13 @@
 	height: -o-calc(100% - 18px); /* Opera */
 	height: calc(100% - 18px); /* Standard */
 }
+
+/* filter */
+.filter {
+	-webkit-filter: blur(30px);
+  filter: blur(30px);
+}
+
 /* opacity */
 .opacity {
 	-khtml-opacity:.50; 
@@ -77,6 +91,9 @@
 	-ms-transform: perspective(1px) scale(1);
     -webkit-transform: perspective(1px) scale(1);
 	transform: perspective(1px) scale(1);
+}
+.prevent-img-bluring {
+	image-rendering: -webkit-optimize-contrast;
 }
 /* animations */
 .transitions {
